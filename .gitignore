@@ -1,0 +1,5 @@
+vendor/*
+.htaccess
+*.html
+*.lock
+index.php
