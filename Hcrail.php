@@ -84,7 +84,8 @@ class Hcrail
     }
 
     /**
-     * 查询是否路由未发现
+     * Determining whether the route is found
+     * @return boolean
      */
     public static function isNotFound()
     {
