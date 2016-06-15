@@ -1,5 +1,5 @@
 {
-	"name": "cmhc/Hcrail",
+	"name": "cmhc/hcrail",
 	"description": "simple php route",
 	"license": "MIT",
 	"require": {
