@@ -13,7 +13,7 @@ require: {
 }
 ```
 
-### useage ###
+### usage ###
 
 use namespace
 
