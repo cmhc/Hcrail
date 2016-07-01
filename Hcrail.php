@@ -26,7 +26,7 @@ class Hcrail
      */
     public static function __callstatic($method, $arguments)
     {
-        self::$match = str_replace("//", "/", dirname($_SERVER['PHP_SELF']) . '/' . $arguments[0]);
+        self::$match = str_replace("//", "/", dirname($_SERVER['PHP_SELF']) . $arguments[0]);
         self::$callback = $arguments[1];
         self::dispatch();
         return;
